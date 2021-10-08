@@ -1,0 +1,172 @@
+body{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.img1{
+  width:200;
+  height:150;
+  border-radius: 50%;
+    
+}
+#myname{
+  font-family: 'Courgette', cursive;
+  color:black;
+}
+.art{
+  padding-top:20px;
+  text-align:center;
+  background: linear-gradient(skyblue, pink);
+}
+h1{
+  font: size 20px;
+}
+
+p{
+  font-size:23px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: navy;
+}
+
+h2{
+  font-size:25px;
+  color: navy;
+}
+.line{
+  height: 6px;
+  background-color: black;
+  width: 70px;
+  margin: 8px auto;
+}
+.about{
+  padding-top: 20px;
+  font-size: 18px;
+  text-align: center;
+  background: linear-gradient(lightgreen, yellow);
+}
+
+.menu{
+  list-style: none;
+  font-family:cursive;
+  float:right;
+  top:10px;
+  right:30px;
+  cursor: pointer;
+  color:black;
+}
+.menu a{
+  color:black !important;
+}
+
+.link{
+  color:crimson;
+  display: inline;
+  padding-top:5px;
+  padding-left:9px;
+  padding-right:9px;
+  padding-bottom: 5px;
+}
+.link:hover{
+  background-color:beige;
+}
+
+#FavArtwork a{
+  font-size: 30px;
+}
+
+.favartwork
+{
+  background: linear-gradient(purple, orchid);
+}
+
+#MyArtwork a{
+  font-size: 30px; 
+}
+
+.myartwork
+{
+  background: linear-gradient(tomato, orange);
+}
+
+#Inspiration a{
+  font-size: 30px;    
+}
+#picture{
+  width:auto;
+  height:300px;
+  border-radius:0%;
+  margin:20px;
+}
+.inspiration
+{
+  background: #373B44;
+  background: linear-gradient( #4286f4, #373B44);
+  padding-top:20px;
+}
+
+img {
+  transition: transform .2s;
+}
+
+img:hover {
+	transform: scale(0.9);
+}
+
+#contact a{
+  font-size: 30px !important;
+  font-family: 'Courgette', cursive !important;      
+}
+
+#contact{
+  background-color: chartreuse;
+  padding-top: 20px;
+  background: linear-gradient(lightcoral, lightseagreen);
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+li {
+  border-right: 1px solid #bbb;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+section{
+  background: #4e54c8;
+  background: -webkit-linear-gradient(right, #8f94fb, #4e54c8);
+  background: linear-gradient(right, #8f94fb, #4e54c8);
+}
+
+.picture1
+{
+  border-radius: none;
+  height: 200px;
+  margin:15px;
+}
